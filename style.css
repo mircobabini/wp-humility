@@ -1,0 +1,16 @@
+#adminmenu li.humble-menu-large .humble-subtitle {
+	font-weight: normal;
+	font-size: 10px;
+	padding: 0;
+	margin: 0;
+	color: #777;
+}
+#adminmenu li.wp-menu-open.humble-menu-large .humble-subtitle {
+	color: #f4f4f4;
+}
+#adminmenu li.humble-menu-large .wp-menu-arrow {
+	height: 46px;
+}
+#adminmenu li.wp-menu-open.humble-menu-large .wp-menu-arrow {
+	height: 48px;
+}
