@@ -1,5 +1,5 @@
 === Humility ===
-Contributors: mirkolofio
+Contributors: mirkolofio <mirkolofio@gmail.com>
 Donate link: http://mircobabini.com/donate/
 Tags: font, style, theme, love
 Requires at least: 2.8
@@ -13,6 +13,7 @@ Make a bunch of exuberant plugins humble
 == Description ==
 
 This humilize a bunch of exuberant plugins like Mailchimp for Wordpress, CodeCanyon LayerSlider and more.
+If you wanna humilize more, contribute (pull requests) on [github.com/wp-humility](https://github.com/mirkolofio/wp-humility).
 
 Developed by [Mirco Babini](http://www.mircobabini.com/), **Wordpress Consultant, Web Developer and Data Lover**.
 
