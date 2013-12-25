@@ -1,3 +1,4 @@
+/* Subtitle support for adminmenu */
 #adminmenu li.humble-menu-large .humble-subtitle {
 	font-weight: normal;
 	font-size: 10px;
@@ -13,4 +14,34 @@
 }
 #adminmenu li.wp-menu-open.humble-menu-large .wp-menu-arrow {
 	height: 48px;
+}
+
+/* humble! Humizile Akisment "activate your account" extra-color message; http://bit.ly/wordpress-akismet */
+form[name=akismet_activate] .akismet_activate,
+form[name=akismet_activate] .akismet_activate .aa_button_container,
+form[name=akismet_activate] .akismet_activate .aa_button_container .aa_button_border,
+form[name=akismet_activate] .akismet_activate .aa_button_container .aa_button_border .aa_button {
+	background: inherit;
+	border: inherit;
+	position: inherit;
+	margin: 0;
+	padding: 0;
+	border-radius: inherit;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	width: auto;
+}
+form[name=akismet_activate] .akismet_activate {
+	margin: .5em 0;
+	padding: 2px;
+}
+form[name=akismet_activate] .akismet_activate .aa_a,
+form[name=akismet_activate] .akismet_activate .aa_description {
+	display: none;
+}
+
+/* humble! Remove menu icon for 'Adminer' plugin; http://bit.ly/wordpress-adminer */
+#adminmenu ul.wp-submenu li span.adminer-icon {
+	display: none;
 }

@@ -4,14 +4,23 @@ Plugin Name: Humility
 Plugin URI: http://github.com/mirkolofio/wp-humility
 Description: Make a bunch of exuberant plugins humble
 Author: Mirco Babini
-Version: 1.0.0
+Version: 1.0.1
 Author URI: http://github.com/mirkolofio
 */
+
+// Make sure we don't expose any info if called directly
+if ( !function_exists( 'add_action' ) ) {
+	echo 'Hi there!  I\'m just a plugin, not much I can do when called directly.';
+	exit;
+}
 
 if ( is_admin() ) { // make 'em humble
 
 	wp_register_style ('humility', plugin_dir_url (__FILE__) . 'style.css');
 	wp_enqueue_style ('humility');
+	
+	wp_register_script ('humility', plugin_dir_url (__FILE__) . 'script.js');
+	wp_enqueue_script ('humility');
 	
 	add_action( 'plugins_loaded', function() {
 	

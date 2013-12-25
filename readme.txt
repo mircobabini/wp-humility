@@ -4,7 +4,7 @@ Donate link: http://mircobabini.com/donate/
 Tags: font, style, theme, love
 Requires at least: 2.8
 Tested up to: 3.8
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,10 @@ Developed by [Mirco Babini](http://www.mircobabini.com/), **Wordpress Consultant
 == Screenshots ==
 
 == Changelog ==
+
+= 1.0.1 =
+* Akismet
+* Adminer
 
 = 1.0.0 =
 * Mailchimp for Wordpress
